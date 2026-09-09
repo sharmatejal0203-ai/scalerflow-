@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScalerFlow</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      padding: 25px 7%;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    main {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 7%;
+      max-width: 900px;
+    }
+    h1 {
+      font-size: clamp(48px, 9vw, 90px);
+      line-height: .95;
+      margin: 0 0 25px;
+    }
+    p {
+      color: #aaa;
+      font-size: 20px;
+      line-height: 1.6;
+      max-width: 650px;
+    }
+    button {
+      margin-top: 25px;
+      width: fit-content;
+      padding: 16px 28px;
+      border: 0;
+      border-radius: 6px;
+      background: #fff;
+      color: #000;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .sections {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 60px;
+    }
+    .card {
+      border: 1px solid #333;
+      padding: 25px;
+      min-width: 180px;
+      flex: 1;
+    }
+    .card span { color: #a87855; }
+  </style>
+</head>
+<body>
+
+  <nav>SCALERFLOW</nav>
+
+  <main>
+    <h1>Find what's<br>next for you.</h1>
+
+    <p>
+      Scholarships, internships and jobs matched to your profile.
+      Discover real opportunities and apply directly through official websites.
+    </p>
+
+    <button>GET STARTED →</button>
+
+    <div class="sections">
+      <div class="card"><span>01</span><br><br>Scholarships</div>
+      <div class="card"><span>02</span><br><br>Internships</div>
+      <div class="card"><span>03</span><br><br>Jobs</div>
+    </div>
+  </main>
+
+</body>
+</html>
